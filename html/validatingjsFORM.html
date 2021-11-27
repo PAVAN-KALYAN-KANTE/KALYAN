@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="application/javascript">
+        function gotop() {
+            var url = "C:/kalsan/html/page2.html";
+            window.location.href = url;
+        }
+
+        function checkdata() {
+            var username = document.getElementById("name");
+            var usermail = document.getElementById("email");
+            var usercell = document.getElementById("cell number");
+
+            if (username.value == "") {
+                alert("Please enter a username");
+                username.focus();
+                return false;
+            }
+            if (usermail.value == "") {
+                alert("Please enter a user email");
+                usermail.focus();
+                return false;
+            }
+            if (usercell.value == "") {
+                alert("Please enter a user cell number");
+                usercell.focus();
+                return false;
+            } else {
+                gotop();
+            }
+        }
+    </script>
+    <style>
+        .container {
+            height: 300px;
+            position: relative;
+            border: 3px solid green;
+        }
+        
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <title>Sample validation</title>
+</head>
+
+<body style="background-color: rgb(18, 139, 24)">
+    <div class="container">
+        <div class="center">
+            <h2>Enter your details:</h2>
+            <form id="form1" action="page2.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br> <br>
+                <label for="cell number">Cell Number:</label>
+                <input type="number" id="cell number" name="cell number">
+                <br> <br>
+                <button type="submit" value="submit" onclick="return checkdata()" if(checkdata()==true){ onclick="return gotop()" }>submit</button>
+                <input type="reset" value="reset">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

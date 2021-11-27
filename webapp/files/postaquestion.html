@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>postaquestion</title>
+    <link rel="stylesheet" href="../stylessheets.css">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body class="postqstle">
+    <div>
+        <h2 style="color: initial">Select a option on which your question based on:</h2>
+        <form onsubmit="return checkpage()" action="pagee2.html">
+            <label for="genre" style="color:black;font-size: xx-large">Choose a genre:</label>
+            <select name="genre" id="genre">
+          <option value="DS">DS</option>
+          <option value="DBMS">DBMS</option>
+          <option value="CO">CO</option>
+          <option value="SE">SE</option>
+        </select>
+            <br><br>
+            <h2 style="color:black;font-size: revert">TYPE THE QUESTION OR ATTACH THE FILE:</h2>"
+            <textarea rows="8" cols="50" name="question" form="question">
+            Enter text here...</textarea>
+            <br><br>
+            <input class="buttonp buttonp1" type="file" id="myFile" name="filename">
+            <br><br>
+            <label for="genre" style="color:black;font-size: xx-large">Choose a option:</label>
+            <select name="genre" id="pripub">
+            <option value="private">private</option>
+            <option value="public">public</option>
+          </select>
+            <br><br>
+            <button class="button2" ; type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <div class="righttopcontainer">
+        <button class="button2" ; type="home" onclick="location.href='../index.html'"><span>home</span></button>
+        <button class="button2" ; type="privacy" onclick="location.href='../index.html'"><span>privacy</button>
+    </div>
+</body>

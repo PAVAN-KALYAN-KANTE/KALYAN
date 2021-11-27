@@ -1,0 +1,285 @@
+.container {
+    height: 500px;
+    position: relative;
+    border: 3px solid green;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.well {
+    animation-play-state: inherit;
+    color: revert;
+    font: icon;
+    font-weight: bold;
+    font-style: oblique;
+    font-stretch: extra-expanded;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: chartreuse;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: chartreuse;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: firebrick;
+}
+
+.pageee1 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.rightcontainer {
+    margin: 0;
+    margin-inline-start: inherit;
+    height: 400px;
+    top: 25%;
+    left: 50%;
+    right: 10%;
+    position: fixed;
+}
+
+.righttopcontainer {
+    margin: 0;
+    margin-inline-start: inherit;
+    height: 100px;
+    top: 0%;
+    left: 80%;
+    right: 50%;
+    position: fixed;
+}
+
+.button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button2:hover span {
+    padding-right: 25px;
+}
+
+.button2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+input[type=email] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=email]:focus {
+    width: 100%;
+}
+
+input[type=number] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=number]:focus {
+    width: 100%;
+}
+
+.validformee {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.leftcontainer {
+    margin: 0;
+    margin-inline-start: inherit;
+    height: 400px;
+    top: 25%;
+    right: 60%;
+    left: 30%;
+    position: fixed;
+}
+
+.indexstle {
+    background-image: url('images/image1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.valjsf {
+    background-image: url('./images/image4.jfif');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page1stle {
+    background-image: url('./images/image2.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginasstle {
+    background-image: url('./images/image3.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.postqstle {
+    background-image: url('./images/image8.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page2stle {
+    background-image: url('./images/image7.jfif');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.viewt {
+    background-image: url('./images/image10.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonp {
+    background-color: #4CAF50;
+    border: none;
+    color: darkseagreen;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonp1 {
+    background-color: darkseagreen;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.buttonp1:hover {
+    background-color: #4CAF50;
+    color: firebrick;
+}
+
+.rightcontainer2 {
+    margin: 0;
+    margin-inline-start: inherit;
+    height: 400px;
+    top: 25%;
+    left: 60%;
+    right: 10%;
+    position: fixed;
+}
+
+.leftcontainer2 {
+    margin: 0;
+    margin-inline-start: inherit;
+    height: 400px;
+    top: 25%;
+    right: 60%;
+    left: 10%;
+    position: fixed;
+}

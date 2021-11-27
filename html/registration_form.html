@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>REGISTRATION_FORM</title>
+    <style>
+        .container {
+            height: 500px;
+            position: relative;
+            border: 3px solid green;
+        }
+        
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body style="background-color: aquamarine">
+    <div class="container">
+        <div class="center">
+            <h1 style="font: size 8px;font-style: oblique">registration form</h1>
+            <form action="registration">
+                <label for="first name">First Name:</label>
+                <input type="text" id="first name" name="first name">
+                <br><br>
+                <label for="last name">Last Name:</label>
+                <input type="text" id="last name" name="last name">
+                <br><br>
+                <label for="email">EmailID:</label>
+                <input type="text" id="email" name="email">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

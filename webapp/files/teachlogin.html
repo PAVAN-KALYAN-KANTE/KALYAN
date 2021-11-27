@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../webapp.js"></script>
+    <link rel="stylesheet" href="../stylessheets.css">
+    <style>
+        .container {
+            height: 300px;
+            position: relative;
+            border: 3px solid green;
+        }
+        
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+    <title>TEACHER LOGIN</title>
+</head>
+
+<body class="valjsf" style="background-color: white">
+    <div class="validformee" style="background-color:white">
+        <h2>Enter your details:</h2>
+        <form id="form1" ; onSubmit="return checkdata()" ; action="pagee2.html">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br> <br>
+            <label for="ID"><span style="size: unset">ID:</span></label>
+            <input type="text" id="ID" name="ID">
+            <br> <br>
+            <button class="button button1" ; type="submit" value="submit" onclick="return checkdata()" if(checkdata()==true){ onclick="return gotop()" }>submit</button>
+            <input class="button button1" ; type="reset" value="reset">
+        </form>
+    </div>
+    <div class="righttopcontainer">
+        <button class="button2" ; type="home" onclick="location.href='../index.html'"><span>home</span></button>
+        <button class="button2" ; type="privacy" onclick="location.href='../index.html'"><span>privacy</button>
+    </div>
+</body>
+
+</html>
