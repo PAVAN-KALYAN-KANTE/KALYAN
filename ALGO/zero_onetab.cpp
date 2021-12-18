@@ -15,8 +15,8 @@ int knapsack(int n,int wt[],int pf[],int w){
 }
 signed main(){
     int n=3;
-    int wt[]={10,20,30};
-    int pf[]={60,100,120};
+    int wt[]={10,30,20};
+    int pf[]={60,120,100};
     int w=50;
     int result=knapsack(n, wt, pf,w);
     cout<<result<<endl;
